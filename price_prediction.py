@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 
 def load_data():
     # Load the dataset
-    data = pd.read_csv('C:/Users/harsh/Desktop/archive (1)/Medical_insurance.csv')  
+    data = pd.read_csv('Medical_insurance.csv')  
     return data
 
 def preprocess_data(data):
